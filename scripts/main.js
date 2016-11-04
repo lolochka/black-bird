@@ -60,7 +60,6 @@ $(document).ready(function () {
     $('.bird-box').mousemove(function (e) {
         var coef = ($(this).width() / 2 - e.pageX) / 10;
         $('.bg1').css('transform', 'translateX(' + 2 * coef + 'px)');
-        console.log($('.fore-bird'));
         $('.bg2').css('transform', 'translateX(' + coef + 'px)');
     });
 });
